@@ -23,6 +23,11 @@ In another window, run the duckling server (for entity extraction):
 docker run -p 8000:8000 rasa/duckling
 ```
 
+Train model:
+```bash
+rasa train
+```
+
 Then talk to your bot by running:
 ```
 rasa shell --debug
